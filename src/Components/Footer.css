@@ -1,51 +1,54 @@
-/* Footer.css */
 .footer {
-    background-color: #222;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-    font-family: Arial, sans-serif;
+  background-color: #FFB140;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.footer-content {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; /* Distributes items evenly */
+  align-items: center; /* Aligns items vertically center */
+}
+
+.footer-text {
+  margin: 10px;
+  font-size: 40px;
+  animation: pulse 1.5s infinite;
+  position: relative;
+  z-index: 1; /* Ensure the text is on top of the icons */
+}
+
+.social-icons {
+  display: flex; /* Ensures icons are in a row */
+  align-items: center; /* Vertically centers the icons */
+}
+
+.social-icon {
+  width: 48px; /* Set width for consistency */
+  height: 48px; /* Set height for consistency */
+  margin: 0 10px; /* Add space between icons */
+  transition: transform 0.3s; /* Smooth transition for scaling effect */
+}
+
+.social-icon:hover {
+  transform: scale(1.2); /* Enlarge the icon by 20% on hover */
+}
+
+@keyframes pulse {
+  0% {
+    text-shadow: 0 0 5px rgba(255, 0, 0, 0.7); /* Red glow */
   }
-  
-  .footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
+  50% {
+    text-shadow: 0 0 20px rgba(0, 255, 0, 0.7); /* Green glow */
   }
-  
-  .footer-text {
-    margin: 10px 0;
-    font-size: 40px;
-    animation: pulse 1.5s infinite; 
+  100% {
+    text-shadow: 0 0 5px rgba(255, 0, 0, 0.7); /* Red glow */
   }
-  
-  .social-icons {
-    margin-top: 10px;
-  }
-  
-  .social-icon {
-    color: #00f;
-    margin: 0 10px;
-    text-decoration: none;
-    font-size: 14px;
-    transition: color 0.3s;
-  }
-  
-  .social-icon:hover {
-    color: #0f0;
-  }
-  
-  /* Keyframes for flashing effect */
-  @keyframes pulse {
-    0% {
-      text-shadow: 0 0 5px rgba(255, 0, 0, 0.7); /* Red glow */
-    }
-    50% {
-      text-shadow: 0 0 20px rgba(0, 255, 0, 0.7); /* Green glow */
-    }
-    100% {
-      text-shadow: 0 0 5px rgba(255, 0, 0, 0.7); /* Red glow */
-    }
-  }
-  
+}

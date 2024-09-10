@@ -1,0 +1,21 @@
+.header {
+    background-color: #B7B3A1;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .header-text {
+    font-size: 2rem;
+    transition: font-size 0.3s ease;
+  }
+  
+  .header-text.hovered {
+    font-size: 10rem; 
+  }
+  
+  .header-text {
+    margin: 0;
+  }
+  

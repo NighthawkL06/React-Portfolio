@@ -4,24 +4,34 @@ import './Links.css';
 const Links = () => {
   const links = [
     { 
-      url: 'https://github.com/username/repo1', 
+      url: 'https://github.com/NighthawkL06/Logo-Generator', 
       imgSrc: 'https://via.placeholder.com/150?text=Repo1', 
       alt: 'Repo 1' 
     },
     { 
-      url: 'https://github.com/username/repo2', 
+      url: 'https://github.com/NighthawkL06/Note-Taker', 
       imgSrc: 'https://via.placeholder.com/150?text=Repo2', 
       alt: 'Repo 2' 
     },
     { 
-      url: 'https://github.com/username/repo3', 
+      url: 'https://github.com/NighthawkL06/React-Portfolio', 
       imgSrc: 'https://via.placeholder.com/150?text=Repo3', 
       alt: 'Repo 3' 
     },
     { 
       url: 'https://github.com/username/repo4', 
-      imgSrc: 'https://via.placeholder.com/150?text=Repo4', 
+      imgSrc: 'https://github.com/NighthawkL06/MVC', 
       alt: 'Repo 4' 
+    },
+    { 
+      url: 'https://github.com/NighthawkL06/Code-Refactor', 
+      imgSrc: 'https://via.placeholder.com/150?text=Repo5', 
+      alt: 'Repo 5' 
+    },
+    { 
+      url: 'https://github.com/NighthawkL06/PythonTest', 
+      imgSrc: 'https://via.placeholder.com/150?text=Repo6', 
+      alt: 'Repo 6' 
     }
   ];
 
