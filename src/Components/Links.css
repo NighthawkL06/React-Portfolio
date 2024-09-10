@@ -1,0 +1,23 @@
+
+.links-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .link-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s, border-color 0.3s;
+  }
+  
+  .link-image:hover {
+    transform: scale(1.05);
+    border-color: #333;
+  }
+  
